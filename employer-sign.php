@@ -5,7 +5,7 @@
 
 <fieldset>
   <form id="form" class="form-group" action="" method="POST">
-  	<legend>Create coder account</legend><hr>
+  	<legend>Create employer account</legend><hr>
     <p>It's free and always will be.</p>
     <div>
         <p class="form-message"></p>
@@ -15,9 +15,6 @@
 
     <label>Last name <span>*</span></label>
     <input id="sign-lastname" type="text"  name="lastname">
-
-    <label>Username <span>*</span></label>
-    <input id="sign-username" type="text" name="">
 
     <label>Email address <span>*</span></label>
     <input id="sign-email" type="text" name="email">
