@@ -51,7 +51,7 @@
 		<div class="container">
 			<div id="branding">
 			<a href="index.php">
-				<img src="img/img.png" alt="logo">
+				<img src="others/img/img.png" alt="logo">
 			</a>
 				<!-- <h2><a href="index.php">CODERSHIVE</a></h2> -->
 			</div>

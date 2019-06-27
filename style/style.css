@@ -30,14 +30,102 @@ header{
 	color: #ffff;
 	padding: 0px;
 	min-height: 60px;
-	border-bottom: #4CAF50 2px solid;
 }
 
  header a{
 	text-decoration: none;
-	font-size: ;
 	color: #fff;
 }
+
+
+/* SignUp SECTION */
+.home-base {
+	display: flex;
+	width: 100%;
+	background-color: #2B3137;
+	padding: 64px 0;
+}
+.home-base-coder{
+	width: 50%;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #fff;
+}
+
+.home-base-coder h1{
+	line-height: 40px;
+	font-family: Helvetica;
+	font-size: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+.home-base-coder p{
+	font-size: 20px;
+	margin-top: 0;
+}
+.home-base-coder a{
+	text-decoration: none;
+	background-color: #1074e7;
+	border: 1px solid #1074e7;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px 0px 4px;
+	padding: 16px 24px;
+
+}
+
+.home-base-coder a:hover{
+	transition: 0.3s;
+	background: #0366d6;
+}
+
+.home-base-employee{
+	width: 50%;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	color: #fff;
+}
+
+.home-base-employee h1{
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.home-base-employee p{
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.home-base-employee a{
+	text-decoration: none;
+	background-color: #1074e7;
+	border: 1px solid #1074e7;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px 0px 4px;
+	padding: 16px 24px;
+
+}
+
+.home-base-employee a:hover{
+	transition: 0.3s;
+	background: #0366d6;
+}
+
 
 #login a{
 	border: none;
@@ -209,15 +297,14 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#forgot {
-  margin-top: 20px;
-}
-#forgot a{
+.form-group a{
+	float: right;
 	text-decoration: none;
 	color: blue;
+	margin: 5px;
 }
 
-#forgot a:hover{
+.form-group a:hover{
 	color: red;
 	border-bottom: 1px solid red;
 }
@@ -246,26 +333,39 @@ input[type=submit]:hover {
 
 /*Footer styling*/
 footer{
-	margin-top: 60px;
+	margin-top: 50px;
 	padding: 10px;
-	border-top: #4CAF50 2px solid;
+	
+}
+
+
+.footer-ul{
+	width: 100%;
+	display: flex;
+}
+
+.footer-ul h2{
+	width: 50%;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 footer ul{
+	width: 50%;
 	margin: 0;
 	padding: 0;
-
 }
 
 footer li{
-	display: inline;
+	display: block;
 	list-style: none;
+	margin-bottom: 10px;
 	padding: 0px 10px 0 0 ;
 }
 
 footer a{
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 14px 0;
 	color: #6A737D;
 }
 footer a:hover{
@@ -274,7 +374,6 @@ footer a:hover{
 }
 footer p{
 	font-size: 15px;
-	float: right;
 	color: #6A737D;
 }
 
@@ -314,8 +413,94 @@ header{
 
  header a{
 	text-decoration: none;
-	font-size: ;
 	color: #fff;
+}
+
+/* SignUp SECTION */
+.home-base {
+	display: flex;
+	width: 100%;
+	background-color: #2B3137;
+	padding: 64px 0;
+}
+.home-base-coder{
+	width: 50%;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #fff;
+}
+
+.home-base-coder h1{
+	font-family: Helvetica;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+.home-base-coder p{
+	font-size: 20px;
+	margin-top: 0;
+}
+.home-base-coder a{
+	text-decoration: none;
+	background-color: #1074e7;
+	border: 1px solid #1074e7;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px 0px 4px;
+	padding: 16px 24px;
+
+}
+
+.home-base-coder a:hover{
+	transition: 0.3s;
+	background: #0366d6;
+}
+
+.home-base-employee{
+	width: 50%;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	color: #fff;
+}
+
+.home-base-employee h1{
+	font-size: 35px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.home-base-employee p{
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.home-base-employee a{
+	text-decoration: none;
+	background-color: #1074e7;
+	border: 1px solid #1074e7;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px 0px 4px;
+	padding: 16px 24px;
+
+}
+
+.home-base-employee a:hover{
+	transition: 0.3s;
+	background: #0366d6;
 }
 
 #login a{
@@ -425,40 +610,41 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#forgot {
-  margin-top: 20px;
-}
-#forgot a{
-	text-decoration: none;
-	color: blue;
-}
-
-#forgot a:hover{
-	color: red;
-	border-bottom: 1px solid red;
-}
 
 /*Footer styling*/
 footer{
-	background-color: #f0f0f0;
-	margin-top: 60px;
-	padding: 20px;
+	margin-top: 50px;
+	padding: 10px;
+	
+}
+
+.footer-ul{
+	width: 100%;
+	display: flex;
+}
+
+.footer-ul h2{
+	width: 50%;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 footer ul{
+	width: 50%;
 	margin: 0;
 	padding: 0;
-
 }
 
 footer li{
-	display: inline;
+	display: block;
 	list-style: none;
-	padding: 0px 15px 0 0 ;
+	margin-bottom: 10px;
+	padding: 0px 10px 0 0 ;
 }
 
 footer a{
 	text-decoration: none;
+	font-size: 14px 0;
 	color: #6A737D;
 }
 footer a:hover{
@@ -466,7 +652,7 @@ footer a:hover{
 	border-bottom: 1px solid #0366d6;
 }
 footer p{
-	float: right;
+	font-size: 15px;
 	color: #6A737D;
 }
 
@@ -501,7 +687,6 @@ header{
 
  header a{
 	text-decoration: none;
-	font-size: ;
 	color: #fff;
 }
 
@@ -554,6 +739,55 @@ header #branding img{
 	height: 30px;
 	margin-top: 8px;
 }
+
+
+/* SignUp SECTION */
+.home-base {
+	display: block;
+	width: 100%;
+	margin: 0;
+	background-color: #2B3137;
+	padding: 50px 0;
+}
+.home-base-coder{
+	width: 90%;
+	margin: 50px 0px 0px 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.home-base-coder h1{
+	font-family: Helvetica;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.home-base-coder p{
+	font-size: 20px;
+	margin-top: 0;
+}
+.home-base-coder a{
+	text-decoration: none;
+	background-color: #1074e7;
+	border: 1px solid #1074e7;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px 0px 4px;
+	padding: 16px 24px;
+
+}
+
+.home-base-coder a:hover{
+	transition: 0.3s;
+	background: #0366d6;
+}
+
+
+
 
 /*Form styling*/
 
@@ -627,26 +861,41 @@ input[type=submit]:hover {
 
 /*Footer styling*/
 footer{
-	background-color: #f0f0f0;
-	margin-top: 60px;
+	margin-top: 50px;
 	padding: 10px;
-	border-top: #4CAF50 2px solid;
+	
+}
+
+
+.footer-ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.footer-ul h2{
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 footer ul{
+	width: 50%;
 	margin: 0;
 	padding: 0;
-
 }
 
 footer li{
-	display: inline;
+	display: block;
 	list-style: none;
-	padding: 0px 5px 0 0 ;
+	margin-bottom: 10px;
+	padding: 0px 10px 0 0 ;
 }
 
 footer a{
 	text-decoration: none;
+	font-size: 14px 0;
 	color: #6A737D;
 }
 footer a:hover{
@@ -654,9 +903,8 @@ footer a:hover{
 	border-bottom: 1px solid #0366d6;
 }
 footer p{
-	float: right;
+	font-size: 15px;
 	color: #6A737D;
-	
 }
 
 

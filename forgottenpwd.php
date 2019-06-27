@@ -8,10 +8,10 @@ include_once 'header.php';
 <fieldset>
 	
   <form action="/action_page.php">
-    <legend>Retrive password</legend><hr>
+    <legend>Reset your password</legend><hr>
     <label>Email address</label>
     <input type="email" id="fname" name="firstname" placeholder="" autofocus="">
-    <input type="submit" value="Send">
+    <input type="submit" value="Send password reset email">
   </form>
 
 </fieldset>
