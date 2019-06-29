@@ -6,44 +6,12 @@
 	<title>Codershive</title>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/signup-c-jquery.js"></script>
+	<script src="js/signup-e-jquery.js"></script>
 	<!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
 
-  <script>
-  	// Jquery code here
-  	$(document).ready(function(){
-  		$("#form").submit(function(event){
-  			event.preventDefault();
-  			var firstname = $("#sign-firstname").val();
-  			var lastname = $("#sign-lastname").val();
-  			var username = $("#sign-username").val();
-  			var email = $("#sign-email").val();
-  			var day = $("#sign-day").val();
-  			var month = $("#sign-month").val();
-  			var year = $("#sign-year").val();
-  			var gender = $("#sign-gender").val();
-  			var password = $("#sign-password").val();
-  			var Cpassword = $("#sign-Cpassword").val();
-  			var submit = $("#sign-submit").val();
 
-  			$(".form-message").load("sign.php", {
-  				firstname: firstname,
-  				lastname: lastname,
-  				username: username,
-  				email: email,
-  				day: day,
-  				month: month,
-  				year: year,
-  				gender: gender,
-  				password: password,
-  				Cpassword: Cpassword,
-  				submit: submit
-
-  			});
-
-  		});
-  	});
-  </script>
 </head>
 <body>
 

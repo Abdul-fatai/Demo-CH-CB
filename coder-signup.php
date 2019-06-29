@@ -49,7 +49,7 @@
     <label>Repeat password <span>*</span></label>
     <input id="sign-Cpassword" type="Password" name="Cpwd">
 
-    <p>By clicking Create an account, you agree to our <a href="#">Terms and Conditions</a></p>
+    <p id="sign-p">By clicking Create an account, you agree to our <a href="#">Terms and Conditions</a></p>
     <input id="sign-submit" type="submit" value="Create account">
   </form>
 

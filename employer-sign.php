@@ -4,7 +4,7 @@
 
 
 <fieldset>
-  <form id="form" class="form-group" action="" method="POST">
+  <form id="form-e" class="form-group" action="" method="POST">
   	<legend>Create employer account</legend><hr>
     <p>It's free and always will be.</p>
     <div>

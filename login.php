@@ -8,7 +8,7 @@
     <legend>Login account <span></span></legend><hr>
     <label for="fname">Username or email address <span>*</span></label>
     <input type="text" id="fname" name="firstname" placeholder="" autofocus="">
-    <a href="forgottenpwd.php"> Forgotten password ?</a>
+    <p id="log-p"><a href="forgottenpwd.php"> Forgotten password ?</a></p>
     <label>Password <span>*</span></label>
     <input type="Password" name="pwd" placeholder="">
     <input type="submit" value="Submit">
