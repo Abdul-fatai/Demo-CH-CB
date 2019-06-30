@@ -307,6 +307,22 @@ input[type=submit]:hover {
     box-shadow: 0 0 5px #4dff88; 
 }
 
+/*Coming soon section */
+
+.coming-soon {
+	margin-top: 15%;
+	margin-bottom: 8%;
+}
+
+.coming-soon h1{
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 0 20px #000000;
+}
+
+
 
 /*Footer styling*/
 footer{
@@ -547,6 +563,21 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+/*Coming soon section */
+
+.coming-soon {
+	margin-top: 20%;
+	margin-bottom: 8%;
+}
+
+.coming-soon h1{
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 0 20px #000000;
 }
 
 
@@ -797,6 +828,24 @@ input[type=submit]:hover {
 	color: red;
 	border-bottom: 1px solid red;
 }
+
+
+/*Coming soon section */
+
+.coming-soon {
+	margin-top: 30%;
+	margin-bottom: 8%;
+}
+
+.coming-soon h1{
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 0 20px #000000;
+}
+
+
 
 /*Footer styling*/
 footer{
