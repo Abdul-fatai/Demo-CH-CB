@@ -18,7 +18,7 @@
 	<header>
 		<div class="container">
 			<div id="branding">
-			<a href="index.php">
+			<a href="http://codershive.ly">
 				<img src="others/img/img.png" alt="logo">
 			</a>
 				<!-- <h2><a href="index.php">CODERSHIVE</a></h2> -->

@@ -28,8 +28,7 @@
 		</ul>
 		
 	</div>
-	<p>&copy;2019 Codershive</p>
-
+	<p>&copy;2019 Codershive <span><a href="">Terms</a></span>, <span><a href="">Privacy</a></span></p>
 	</div>
 </footer>
 </body>
