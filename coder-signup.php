@@ -38,7 +38,7 @@
     
     <label>Gender <span>*</span></label><br>
     <select id="sign-gender" name="gender">
-        <option disabled selected>Select gender</option>
+        <option disabled selected>Gender</option>
         <option value="male">Male</option>
         <option value="Female">Female</option>
     </select>

@@ -6,6 +6,7 @@
 <div class="container">
     
     <h1>COMING SOON</h1>
+    <i class="far fa-smile-wink"></i>
 
 </div>
 </div>
